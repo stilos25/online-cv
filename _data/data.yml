@@ -130,8 +130,8 @@ projects:
 
       - title: Recording Tradition Project
         link: "assets/Certificates/YouthPass (Erasmus+) recording tradition..pdf"
-        
-        details: This project gave me a more in-depth understanding of photography and was my first experience with travelling abroad. Since then, travelling has been one of my passions and it's something i'd like to explore more in the near future.
+        link:
+        tagline: This project gave me a more in-depth understanding of photography and was my first experience with travelling abroad. Since then, travelling has been one of my passions and it's something i'd like to explore more in the near future.
         
         
 #publications:
