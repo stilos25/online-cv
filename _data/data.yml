@@ -7,22 +7,23 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Γιάννης Στυλιανουδάκης
-    tagline: NONE Stack Developer
+    name: John Stylianoudakis
+    tagline: Undergraduate Informatics student
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: +30 6971855702
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: giannis.stil@hotmail.com
+#    phone: +30 6971855702
+    website: stilos25.github.io/online-cv/. #do not add http://
+#    linkedin: alandoe
+    github: stilos25
+#    gitlab:
+#    bitbucket:
+#    twitter: '@webjeda'
+#    stack-overflow: # Number/Username, e.g. 123456/alandoe
+#    codewars:
+#    goodreads: # Number-Username, e.g. 123456-alandoe
+    instagram: john__styl
 
     languages:
       - idiom: Greek
@@ -33,53 +34,36 @@ sidebar:
 
 
     interests:
-      - item: Running
+      - item: Running (& sports)
         link:
 
       - item: Photos & Editing
         link:
 
-      - item: Cooking
+      - item: Games & Traveling
+        link:
+
+      - item: Chess
         link:
 
 career-profile:
-    title: Career Profile
+    title: ABOUT ME
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
-
+        I love challenges and try to do my best with the time I have.
+        Also, I enjoy "running" in the stadiums or programs :).
+        
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
+    - degree: High School Graduate
+      university:
+      time: 2013 - 2016
+      details: Coolest years ever.
+          
+    - degree: Undergraduate Student
+      university: Ionian University
+      time: 2016 - Present
+      details: Department of Information Science & Informatics. 
+      
+      
 experiences:
     - role: Lead Developer
       time: 2015 - Present
@@ -94,10 +78,8 @@ experiences:
         error sit voluptatem accusantium doloremque laudantium, totam rem
         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
         architecto beatae vitae dicta sunt explicabo.
-
           - Bullet point
           - Bullet point
-
     - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
@@ -107,10 +89,8 @@ experiences:
         Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
         pellentesque eu, pretium quis, sem.
-
           - Bullet point
           - Bullet point
-
     - role: UI Developer
       time: 2012 - 2014
       company: Amazon, London
@@ -120,45 +100,46 @@ experiences:
         Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
         pellentesque eu, pretium quis, sem.
-
           - Bullet point
           - Bullet point
-
 projects:
-    title: Projects
+    title: Seminars
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
+      Here are some seminars I have attended, check the certificates below.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    
+      - title: Data Mining Algorithms and Medical Applications
+        link: "assets/certificates/Αλγόριθμοι Εξόρυξης Δεδομένων και Ιατρικές Εφαρμογές.pdf"
+        tagline: 
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Local Hackathon
+        link: "assets/certificates/LOCAL_HACK_DAY_2018-rotated.pdf"
+        tagline: 
+        
+      - title: Grow Greek Tourism Online
+        link: "assets/certificates/Grow Greek Tourism Online.pdf"
+        tagline: 
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: "Gryphone Lab: An open-access smartphone testbed"
+        link: "assets/certificates/GryPhone Lab= An open-access smartphone testbed.pdf"
+        tagline: 
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Management of Healthcare IT Projects (Save the project)
+        link: "assets/certificates/Management of Healthcare IT Projects (Save the project).pdf"
+        tagline: 
 
+      - title: Recording Tradition Project
+        link: "assets/certificates/"
+        tagline: This project gave me a more in-depth understanding of photography and was my first experience with travelling abroad. Since then, travelling has been one of my passions and it's something i'd like to explore more in the near future
+        
+        
 publications:
     title: Publications
     intro: |
       You can list your publications in this section. Lorem ipsum dolor sit
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       bibendum fringilla a eu lectus.
-
     papers:
       - title: The Art of Computer Programming
         authors: Donald E. Knuth
