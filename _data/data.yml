@@ -157,7 +157,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: C & C++ & Java & Java
+      - name: C & C++ & Java & Python
         level: 40%
 
       - name: Javascript & Html(5) & Phaser & Css
