@@ -37,14 +37,12 @@ sidebar:
       - item: Running (& sports)
         link:
 
-      - item: Photos & Editing
+      - item: Photography & Traveling
         link:
 
-      - item: Games & Traveling
+      - item: Games & Chess 
         link:
-
-      - item: Chess
-        link:
+        
 
 career-profile:
     title: ABOUT ME
@@ -110,49 +108,49 @@ projects:
     assignments:
     
       - title: Data Mining Algorithms and Medical Applications
-        link: "assets/certificates/Αλγόριθμοι Εξόρυξης Δεδομένων και Ιατρικές Εφαρμογές.pdf"
+        link: "assets/Certificates/Αλγόριθμοι Εξόρυξης Δεδομένων και Ιατρικές Εφαρμογές.pdf"
         tagline: 
 
       - title: Local Hackathon
-        link: "assets/certificates/LOCAL_HACK_DAY_2018-rotated.pdf"
+        link: "assets/Certificates/LOCAL_HACK_DAY_2018-rotated.pdf"
         tagline: 
         
       - title: Grow Greek Tourism Online
-        link: "assets/certificates/Grow Greek Tourism Online.pdf"
+        link: "assets/Certificates/Grow Greek Tourism Online.pdf"
         tagline: 
 
       - title: "Gryphone Lab: An open-access smartphone testbed"
-        link: "assets/certificates/GryPhone Lab= An open-access smartphone testbed.pdf"
+        link: "assets/Certificates/GryPhone Lab= An open-access smartphone testbed.pdf"
         tagline: 
 
 
       - title: Management of Healthcare IT Projects (Save the project)
-        link: "assets/certificates/Management of Healthcare IT Projects (Save the project).pdf"
+        link: "assets/Certificates/Management of Healthcare IT Projects (Save the project).pdf"
         tagline: 
 
       - title: Recording Tradition Project
-        link: "assets/certificates/"
+        link: "assets/Certificates/"
         tagline: This project gave me a more in-depth understanding of photography and was my first experience with travelling abroad. Since then, travelling has been one of my passions and it's something i'd like to explore more in the near future
         
         
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#    papers:
+#      - title: The Art of Computer Programming
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+#
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#      - title: A syntax directed compiler for Algol 60
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
