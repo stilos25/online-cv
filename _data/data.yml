@@ -115,7 +115,7 @@ education:
 works:
     title: Projects
     intro: >
-       Projects which I have done.
+       Finished Projects,
     assignments:
     
       - title: Super Mario
@@ -135,7 +135,7 @@ works:
 participations:
     title: Associations
     intro: >
-      Associated Labs 
+      Associated Labs, 
     assignments:
     
       - title: IEEE Corfu branch
@@ -152,7 +152,7 @@ participations:
 projects:
     title: Seminars
     intro: >
-      Here are some seminars I have attended, check the certificates below.
+      Here are some seminars I have attended, check the certificates below,
     assignments:
     
       - title: Data Mining Algorithms and Medical Applications
