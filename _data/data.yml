@@ -206,18 +206,19 @@ skills:
     toolset:
       - name: C & C++
         level: 40%
-        
-      - name: Java & Python
-        level: 40%        
-
+              
       - name: Javascript & Html(5) & Phaser & Css
         level: 35%
 
+      - name: Java & Python
+        level: 40%  
+
+      - name: Database
+        level: 15%
+        
       - name: Sketch & Photoshop
         level: 45%
         
-      - name: Database
-        level: 15%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
