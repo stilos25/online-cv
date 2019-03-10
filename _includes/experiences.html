@@ -28,6 +28,10 @@
       {{ experience.details | markdownify }}
     </div><!--//details-->
     {% endif %}
+    
+     <span class="project-title">
+       <a href="{{ project.link }}">{{ project.title }}</a>
+     </span>    
 
   </div><!--//item-->
   {% endfor %}
