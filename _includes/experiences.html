@@ -16,18 +16,17 @@
 
       <div class="upper-row">
         <h3 class="job-title">{{ experience.role }}</h3>
+        <span class="experience-link">
+          <a href="{{ experience.link }}">{{ experience.link }}</a>
+        </span>        
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
       <div class="company">{{ experience.company }}</div>
 
     </div><!--//meta-->
+
     
-      <span class="experience-link">
-        <a href="{{ experience.link }}">{{ experience.link }}</a>
-      </span>
-
-
     {% if experience.details %}
     <div class="details">
       {{ experience.details | markdownify }}
