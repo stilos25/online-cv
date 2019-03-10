@@ -87,17 +87,13 @@ experiences:
         - new paths, buttons, rated paths and more.
         
           
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: University project
+      time: 2019
+      company: Online CV (Software Engineering)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+         This is a university project for the Software Engineering subject which take place at 6th semester of my students years.
+
+          - The project is what you see right now (this page)
           
 projects:
     title: Seminars
