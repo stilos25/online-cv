@@ -111,18 +111,18 @@ experiences:
           The project is what you see right now (this page)
 
 participations:
-    title: Participations
+    title: Associations
     intro: >
-      Here are some 
+      Labs 
     assignments:
     
       - title: IEEE Corfu branch
         link: https://www.facebook.com/ieeeIonianUni/
-        tagline: Member since 2018. Student organised lessons in subjects like python,java ,cpp and other events
+        tagline: Member since 2018. | Student organised lessons in subjects like python,java ,cpp and other events
 
       - title: CTF lab
         link: https://www.facebook.com/IonianCTF/
-        tagline: Member since 2019. Introductory lessons about cybersecurity 
+        tagline: Member since 2019. | Introductory lessons about cybersecurity 
         
 
 
