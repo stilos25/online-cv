@@ -1,1 +1,35 @@
+{% assign participations = site.data.data.participations %}
+{% if participations %}
+<section class="section participations-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ participations.title }}
+  </h2>
+
+  {% if participations.intro %}
+  <div class="intro">
+      <p>{{ participations.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for participation in participations.assignments %}
+    <div class="item">
+
+      <span class="participation-title">
+        <a href="{{ participation.link }}">{{ participation.title }}</a>
+      </span><p>
+
+      {% if participation.tagline %}
+      - <span class="participation-tagline">{{ participation.tagline }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
 
