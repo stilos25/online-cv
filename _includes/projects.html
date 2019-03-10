@@ -14,8 +14,7 @@
   <div class="intro">
       <p>{{ projects.intro }}</p>
   </div><!--//intro-->
-  {% endif %}
-
+  
   {% for project in projects.assignments %}
     <div class="item">
 
@@ -26,6 +25,10 @@
       {% if project.tagline %}
       <p>- <span class="project-tagline">{{ project.tagline }}</span>
       {% endif %}
+  
+  {% endif %}
+
+  
 
     </div><!--//item-->
   {% endfor %}
