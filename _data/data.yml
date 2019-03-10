@@ -71,12 +71,17 @@ experiences:
       time: 2017
       company: University project
       details: |
-        This is a university project for the Human-Computer Interaction subject which take place at 3rd semester.
+        This is a university project for the Human-Computer Interaction subject which take place at 3rd semester of my students years.
         The main changes was that I add some futures like
+        
           -Menu
+          
           -Second  lvl
+          
           -More enemies
+          
           -And more
+          
     - role: Corfu Map
       time: 2018
       company: University project
@@ -99,6 +104,8 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
+          
+          
           
           
           
