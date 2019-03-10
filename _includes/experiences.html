@@ -23,9 +23,20 @@
 
     </div><!--//meta-->
     
-      <span class="experience-title">
-        <a href="{{ experience.link }}">{{ experience.title }}</a>
-      </span>    
+      <span class="experience-role">
+        <a href="{{ experience.link }}">{{ experience.role }}</a>
+      </span>
+#      <ul class="list-unstyled interests-list">
+#        {% for interest in interests %}
+#
+#          {% if interest.link %}
+#          <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
+#          {% else %}
+#          <li>{{ interest.item }}</li>
+#          {% endif %}
+#
+#        {% endfor %}
+#      </ul>
 
     {% if experience.details %}
     <div class="details">
