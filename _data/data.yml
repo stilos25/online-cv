@@ -113,29 +113,17 @@ experiences:
 participations:
     title: Participations
     intro: >
-      Here are some seminars I have attended, check the certificates below.
+      Here are some 
     assignments:
     
-      - title: 
-        link: 
-        tagline: 
+      - title: IEEE Corfu branch
+        link: https://www.facebook.com/ieeeIonianUni/
+        tagline: Member since 2018. Student organised lessons in subjects like python,java ,cpp and other events
 
-      - title: 
-        link: 
-        tagline: 
+      - title: CTF lab
+        link: https://www.facebook.com/IonianCTF/
+        tagline: Member since 2019. Introductory lessons about cybersecurity 
         
-      - title: 
-        link: 
-        tagline: 
-
-      - title: 
-        link: 
-        tagline: 
-
-
-      - title: 
-        link: 
-        tagline: 
 
 
 
