@@ -70,12 +70,14 @@ experiences:
     - role: University project
       time: 2017
       company: Super Mario (Human-Computer Interaction)
-
       details: |
         This is a university project for the Human-Computer Interaction subject which take place at 3rd semester of my students years.
         The main changes was that I add some futures like:
         
         - menu, second  lvl, new enemies and more.
+        
+        - Super Mario Application Link: https://stilos25.github.io/Super-Mario
+
 
 
     - role: University project
@@ -86,6 +88,8 @@ experiences:
         The main changes was that I add some futures like :
         
         - new paths, buttons, rated paths and more.
+        
+        - Corfu Map Application Link: https://stilos25.github.io/corfu-map/
         
           
     - role: University project
