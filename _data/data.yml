@@ -109,7 +109,36 @@ experiences:
          This is a university project for the Software Engineering subject which take place at 6th semester of my students years.
 
           The project is what you see right now (this page)
-          
+
+Participations:
+    title: Participations
+    intro: >
+      Here are some seminars I have attended, check the certificates below.
+    assignments:
+    
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+        
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+
+
+      - title: 
+        link: 
+        tagline: 
+
+
+
 projects:
     title: Seminars
     intro: >
