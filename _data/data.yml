@@ -69,30 +69,28 @@ education:
 experiences:
     - role: Super Mario
       time: 2017
-      company: University project
+      company: University project (Human-Computer Interaction)
       details: |
         This is a university project for the Human-Computer Interaction subject which take place at 3rd semester of my students years.
-        The main changes was that I add some futures like
+        The main changes was that I add some futures like:
         
           -Menu
-          
           -Second  lvl
-          
           -More enemies
-          
           -And more
           
     - role: Corfu Map
       time: 2018
-      company: University project
+      company: University project (Mobile and Social Media subject)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        This is a university project for the Mobile and Social Media subject which take place at 4th semester of my students years.
+        The main changes was that I add some futures like:
+        
+          -New paths
+          -buttons
+          -Rated paths
+          -And more          
+          
     - role: UI Developer
       time: 2012 - 2014
       company: Amazon, London
@@ -104,10 +102,6 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-          
-          
-          
-          
           
 
 projects:
