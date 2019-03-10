@@ -31,21 +31,21 @@
     
       </h4>
 
-  {% if projects.intro %}
+  {% if experiences.intro %}
   <div class="intro">
-      <p>{{ projects.intro }}</p>
+      <p>{{ experiences.intro }}</p>
   </div><!--//intro-->
   {% endif %}
 
-  {% for project in projects.assignments %}
+  {% for experiences in experiences.assignments %}
     <div class="item">
 
       <span class="project-title">
-        <a href="{{ project.link }}">{{ project.title }}</a>
+        <a href="{{ experiences.link }}">{{ experiences.title }}</a>
       </span>
 
       {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      - <span class="experiences-tagline">{{ experiences.tagline }}</span>
       {% endif %}
 
     </div><!--//item-->
