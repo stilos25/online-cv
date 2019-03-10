@@ -1,220 +1,34 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
+{% assign works = site.data.data.works %}
+{% if works %}
+<section class="section works-section">
 
-sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ works.title }}
+  </h2>
 
-    # Profile information
-    name: John Stylianoudakis
-    tagline: Undergraduate Informatics student
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  {% if works.intro %}
+  <div class="intro">
+      <p>{{ works.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
 
-    # Sidebar links
-    email: giannis.stil@hotmail.com
-#    phone: +30 6971855702
-    website: stilos25.github.io/online-cv/. #do not add http://
-#    linkedin: alandoe
-    github: stilos25
-#    gitlab:
-#    bitbucket:
-#    twitter: '@webjeda'
-#    stack-overflow: # Number/Username, e.g. 123456/alandoe
-#    codewars:
-#    goodreads: # Number-Username, e.g. 123456-alandoe
-    instagram: john__styl
+  {% for work in works.assignments %}
+    <div class="item">
 
-    languages:
-      - idiom: Greek
-        level: Native
+      <span class="work-title">
+        <a href="{{ work.link }}">{{ work.title }}</a>
+      </span><p>
 
-      - idiom: English
-        level: Professional
+      {% if work.tagline %}
+      - <span class="work-tagline">{{ work.tagline }}</span>
+      {% endif %}
 
+    </div><!--//item-->
+  {% endfor %}
 
-    interests:
-      - item: Running (& sports)
-        link:
-
-      - item: Photography & Traveling
-        link:
-
-      - item: Games & Chess 
-        link:
-        
-      - item: Music
-        link:
-        
-
-career-profile:
-    title: ABOUT ME
-    summary: |
-        I grew up in Ikaria and the last three years I’m living in Corfu where I study informatics. 
-        Besides my studies I’m interested in sports and specifically in running and football which my experience with the university football team made me love. 
-        Travelling and foreign languages are also some of the things that interests me. 
-        In my third year I am planning to further improve my english communication skills and take the proficiency certification for the english language. 
-        Two year ago I got my driving license. Further more, 
-        I have participated in an Erasmus+ program in Cyprus, which gave me a more in-depth understanding of photography. 
-        
-        
-        I love challenges and try to do my best with the time I have. 
-        Also, I enjoy “running” in the stadiums or programs :).
-        
-        
-education:
-    - degree: High School Graduate
-      university:
-      time: 2013 - 2016
-      details: Coolest years ever.
-          
-    - degree: BSc in Computer Science
-      university: Ionian University
-      time: 2016 - Present
-      details: Department of Information Science & Informatics. 
-      
-      
-#experiences:
-#    - role: University project
-#      time: 2017
-#      company: Super Mario (Human-Computer Interaction)
-#      link: https://stilos25.github.io/Super-Mario
-#      details: |
-#        This is a university project for the Human-Computer Interaction subject which take place at 3rd semester of my students years.
-#        The main changes was that I add some futures like:
-#        
-#        - menu, second  lvl, new enemies and more.
-#        
-#        Super Mario Application Link: https://stilos25.github.io/Super-Mario
-#
-#
-#
-#    - role: University project
-#      time: 2018
-#      company: Corfu Map (Mobile and Social Media subject)
-#      link: https://stilos25.github.io/corfu-map/
-#      details: |
-#        This is a university project for the Mobile and Social Media subject which take place at 4th semester of my students years.
-#        The main changes was that I add some futures like :
-#        
-#        - new paths, buttons, rated paths and more.
-#        
-#        Corfu Map Application Link: https://stilos25.github.io/corfu-map/
-#        
-#          
-#    - role: University project
-#      time: 2019
-#      company: Online CV (Software Engineering)
-#      details: |
-#         This is a university project for the Software Engineering subject which take place at 6th semester of my students years.
-#
-#          The project is what you see right now (this page)
-#
-
-
-works:
-    title: Projects
-    intro: >
-       Finished Projects,
-    assignments:
-    
-      - title: Super Mario
-        link: https://stilos25.github.io/Super-Mario
-        tagline: Took place in 2017 for Human-Computer Interaction subjest at 3rd semester of my students years.
-
-      - title: Corfu Map
-        link: https://stilos25.github.io/corfu-map/
-        tagline: Took place in 2018 for Mobile and Social Media subject at 4th semester of my students years.
-
-      - title: Online CV
-        link: https://stilos25.github.io/online-cv/
-        tagline: Took place in 2019 for Software Engineering subject at 6th semester of my students years.
-
-
-
-participations:
-    title: Associations
-    intro: >
-      Associated Labs, 
-    assignments:
-    
-      - title: IEEE Corfu branch
-        link: https://www.facebook.com/ieeeIonianUni/
-        tagline: Member since 2018. Student organised lessons in subjects like python,java ,cpp and other events.
-
-      - title: CTF lab
-        link: https://www.facebook.com/IonianCTF/
-        tagline: Member since 2019. Introductory lessons about cybersecurity. 
-        
-
-
-
-projects:
-    title: Seminars
-    intro: >
-      Here are some seminars I have attended, check the certificates below,
-    assignments:
-    
-      - title: Data Mining Algorithms and Medical Applications
-        link: "assets/Certificates/Αλγόριθμοι Εξόρυξης Δεδομένων και Ιατρικές Εφαρμογές.pdf"
-        tagline: 
-
-      - title: Local Hackathon
-        link: "assets/Certificates/LOCAL_HACK_DAY_2018-rotated.pdf"
-        tagline: 
-        
-      - title: Grow Greek Tourism Online
-        link: "assets/Certificates/Grow Greek Tourism Online.pdf"
-        tagline: 
-
-      - title: "Gryphone Lab: An open-access smartphone testbed"
-        link: "assets/Certificates/GryPhone Lab= An open-access smartphone testbed.pdf"
-        tagline: 
-
-
-      - title: Management of Healthcare IT Projects (Save the project)
-        link: "assets/Certificates/Management of Healthcare IT Projects (Save the project).pdf"
-        tagline: 
-
-      - title: Recording Tradition Project
-        link: "assets/Certificates/YouthPass (Erasmus+) recording tradition..pdf"
-        tagline: This project gave me a more in-depth understanding of photography and was my first experience with travelling abroad. Since then, travelling has been one of my passions and it's something i'd like to explore more in the near future.
-        
-        
-#publications:
-#    title: Publications
-#    intro: |
-#      You can list your publications in this section. Lorem ipsum dolor sit
-#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#      bibendum fringilla a eu lectus.
-#    papers:
-#      - title: The Art of Computer Programming
-#        authors: Donald E. Knuth
-#        conference: Addison-Wesley, 1968
-#
-#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-#
-#      - title: A syntax directed compiler for Algol 60
-#        authors: Edgar T. Irons
-#        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: C & C++ & Java & Python
-        level: 40%
-
-      - name: Javascript & Html(5) & Phaser & Css
-        level: 35%
-
-      - name: Sketch & Photoshop
-        level: 45%
-        
-      - name: Database
-        level: 10%        
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+</section><!--//section-->
+{% endif %}
