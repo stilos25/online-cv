@@ -40,11 +40,11 @@
   {% for experiences in experiences.assignments %}
     <div class="item">
 
-      <span class="project-title">
+      <span class="experiences-title">
         <a href="{{ experiences.link }}">{{ experiences.title }}</a>
       </span>
 
-      {% if project.tagline %}
+      {% if experiences.tagline %}
       - <span class="experiences-tagline">{{ experiences.tagline }}</span>
       {% endif %}
 
