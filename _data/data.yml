@@ -74,41 +74,63 @@ education:
       details: Department of Information Science & Informatics. 
       
       
-experiences:
-    - role: University project
-      time: 2017
-      company: Super Mario (Human-Computer Interaction)
-      link: https://stilos25.github.io/Super-Mario
-      details: |
-        This is a university project for the Human-Computer Interaction subject which take place at 3rd semester of my students years.
-        The main changes was that I add some futures like:
-        
-        - menu, second  lvl, new enemies and more.
-        
-        Super Mario Application Link: https://stilos25.github.io/Super-Mario
+#experiences:
+#    - role: University project
+#      time: 2017
+#      company: Super Mario (Human-Computer Interaction)
+#      link: https://stilos25.github.io/Super-Mario
+#      details: |
+#        This is a university project for the Human-Computer Interaction subject which take place at 3rd semester of my students years.
+#        The main changes was that I add some futures like:
+#        
+#        - menu, second  lvl, new enemies and more.
+#        
+#        Super Mario Application Link: https://stilos25.github.io/Super-Mario
+#
+#
+#
+#    - role: University project
+#      time: 2018
+#      company: Corfu Map (Mobile and Social Media subject)
+#      link: https://stilos25.github.io/corfu-map/
+#      details: |
+#        This is a university project for the Mobile and Social Media subject which take place at 4th semester of my students years.
+#        The main changes was that I add some futures like :
+#        
+#        - new paths, buttons, rated paths and more.
+#        
+#        Corfu Map Application Link: https://stilos25.github.io/corfu-map/
+#        
+#          
+#    - role: University project
+#      time: 2019
+#      company: Online CV (Software Engineering)
+#      details: |
+#         This is a university project for the Software Engineering subject which take place at 6th semester of my students years.
+#
+#          The project is what you see right now (this page)
+#
 
 
+works:
+    title: Projects
+    intro: >
+       
+    assignments:
+    
+      - title: Super Mario
+        link: https://stilos25.github.io/Super-Mario
+        tagline: Took place in 2017 for Human-Computer Interaction subjest at 3rd semester of my students years.
 
-    - role: University project
-      time: 2018
-      company: Corfu Map (Mobile and Social Media subject)
-      link: https://stilos25.github.io/corfu-map/
-      details: |
-        This is a university project for the Mobile and Social Media subject which take place at 4th semester of my students years.
-        The main changes was that I add some futures like :
-        
-        - new paths, buttons, rated paths and more.
-        
-        Corfu Map Application Link: https://stilos25.github.io/corfu-map/
-        
-          
-    - role: University project
-      time: 2019
-      company: Online CV (Software Engineering)
-      details: |
-         This is a university project for the Software Engineering subject which take place at 6th semester of my students years.
+      - title: Corfu Map
+        link: https://stilos25.github.io/corfu-map/
+        tagline: Took place in 2018 for Mobile and Social Media subject at 4th semester of my students years.
 
-          The project is what you see right now (this page)
+      - title: Online CV
+        link: https://stilos25.github.io/corfu-map/
+        tagline: Took place in 2019 for Software Engineering subject at 6th semester of my students years.
+
+
 
 participations:
     title: Associations
