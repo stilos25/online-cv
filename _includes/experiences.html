@@ -28,22 +28,6 @@
       {{ experience.details | markdownify }}
     </div><!--//details-->
     {% endif %}
-    
-  {% for experience %}
-    <div class="item">
-
-      <span class="experience-title">
-        <a href="{{ experience.link }}">{{ experience.title }}</a>
-      </span>
-
-      {% if experience.tagline %}
-      - <span class="experience-tagline">{{ experience.tagline }}</span>
-      {% endif %}
-
-    </div><!--//item-->
-  {% endfor %}
-     
-    
 
   </div><!--//item-->
   {% endfor %}
