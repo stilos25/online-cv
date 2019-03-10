@@ -72,26 +72,16 @@ experiences:
       company: University project (Human-Computer Interaction)
       details: |
         This is a university project for the Human-Computer Interaction subject which take place at 3rd semester of my students years.
-        The main changes was that I add some futures like:
-        
-          -Menu|
-          -Second  lvl|
-          -More enemies
-          
-          -And more
-          
+        The main changes was that I add some futures like menu, second  lvl, more enemies and more.
+
+
     - role: Corfu Map
       time: 2018
       company: University project (Mobile and Social Media subject)
       details: |
         This is a university project for the Mobile and Social Media subject which take place at 4th semester of my students years.
-        The main changes was that I add some futures like:
+        The main changes was that I add some futures like new paths, buttons, rated paths and more.
         
-          -New paths|
-          -buttons|
-          -Rated paths
-          
-          -And more          
           
     - role: UI Developer
       time: 2012 - 2014
