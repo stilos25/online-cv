@@ -13,23 +13,9 @@
   {% if projects.intro %}
   <div class="intro">
       <p>{{ projects.intro }}</p>
-  </div><!--//intro-->
-  
-  {% for project in projects.assignments %}
-    <div class="item">
-
-      <span class="project-title">
-        <a href="{{ project.link }}">{{ project.title }}</a>
-      </span>
-
-      {% if project.tagline %}
-      <p>- <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
-  
+  </div><!--//intro--> 
   {% endif %}
-
   
-
     </div><!--//item-->
   {% endfor %}
 
