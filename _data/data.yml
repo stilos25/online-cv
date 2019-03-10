@@ -75,7 +75,7 @@ education:
 experiences:
     - role: University project
       time: 2017
-      company: Super Mario (Human-Computer Interaction)
+      company: [Super Mario (Human-Computer Interaction)](https://stilos25.github.io/Super-Mario)
       link: https://stilos25.github.io/Super-Mario
       details: |
         This is a university project for the Human-Computer Interaction subject which take place at 3rd semester of my students years.
