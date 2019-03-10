@@ -1,1 +1,35 @@
+{% assign works = site.data.data.works %}
+{% if works %}
+<section class="section works-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ works.title }}
+  </h2>
+
+  {% if works.intro %}
+  <div class="intro">
+      <p>{{ works.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for work in worksfz.assignments %}
+    <div class="item">
+
+      <span class="work-title">
+        <a href="{{ work.link }}">{{ work.title }}</a>
+      </span><p>
+
+      {% if work.tagline %}
+      - <span class="work-tagline">{{ work.tagline }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
 
