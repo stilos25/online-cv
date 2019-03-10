@@ -76,7 +76,9 @@ experiences:
         
         - menu, second  lvl, new enemies and more.
         
-       url: "https://stilos25.github.io/Super-Mario"
+      - title: Local Hackathon
+        link: "https://stilos25.github.io/Super-Mario"
+        tagline:
        
 
 
