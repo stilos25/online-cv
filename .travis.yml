@@ -1,1 +1,46 @@
-language: python
+# We test each method for building LaTeX in a separate job.
+language: generic
+
+
+# This is required to test texlive-docker because it searches for config options in this file
+tex-config:
+  - build-pattern=src/main.tex,src/mwe.tex
+  - packages=xkeyval, collection-latex, collection-langeuropean, exam, amsmath, amscls, mathtools, thmtools, stmaryrd, xcolor, pdfpages, pgf, cancel, hyperref, pgfplots, listings, scalerel, stackengine, etoolbox, listofitems, marvosym, amsfonts, opensans, slantsc, fancyhdr, ulem, algorithms, algorithmicx, float, booktabs, enumitem, polynom, fancyvrb, makecmds, multirow, chngcntr, fvextra, upquote, lineno, ifplatform, xstring, framed, caption, collection-fontsrecommended, minted, pgfgantt, geometry, beamer, translator, environ, trimspaces, imakeidx, graphics, tools, oberdiek
+
+jobs:
+  include:
+    # Each - starts a separate job
+    - services: docker
+      sudo: required
+      script: chmod +x $TRAVIS_BUILD_DIR/test/tectonic-docker-test.sh && $TRAVIS_BUILD_DIR/test/tectonic-docker-test.sh
+    - script: chmod +x $TRAVIS_BUILD_DIR/test/tectonic-miniconda-test.sh && $TRAVIS_BUILD_DIR/test/tectonic-miniconda-test.sh
+    - script:
+        - chmod +x $TRAVIS_BUILD_DIR/test/texlive-docker-test.sh
+        # Change working directory to find the right .travis.yml for testing
+        - cd test
+        - ./texlive-docker-test.sh
+        - cd ..
+    - script: chmod +x $TRAVIS_BUILD_DIR/test/texlive-test.sh && $TRAVIS_BUILD_DIR/test/texlive-test.sh
+
+cache:
+  directories:
+    - /tmp/texlive
+    - $HOME/.texlive
+    - $HOME/miniconda
+    - $HOME/.cache/Tectonic
+
+# Disable this test because it's broken and nobody uses it anyway
+#    - stage: tinytex
+#      language: r
+#      sudo: true
+#      latex: false
+#      pandoc: false
+#      warnings_are_errors: false
+#      install: echo "The install step is required but does nothing now."
+#      script: chmod +x $TRAVIS_BUILD_DIR/test/tinytex-test.sh && $TRAVIS_BUILD_DIR/test/tinytex-test.sh
+#      cache:
+#        directories:
+#          - packages
+#          - /tmp/texlive
+#          - $HOME/.texlive
+#          - $HOME/.TinyTex
