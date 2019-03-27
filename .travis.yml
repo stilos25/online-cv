@@ -1,5 +1,5 @@
 # We test each method for building LaTeX in a separate job.
-language: generic
+language: YAML
 
 
 # This is required to test texlive-docker because it searches for config options in this file
