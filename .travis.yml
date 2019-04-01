@@ -1,8 +1,8 @@
-# blocklist
+# Build all branches, *including* gh-pages:
 branches:
-  except:
+  only:
   - gh-pages
-  
+  - /.*/
   
 sudo: required
 language: generic
