@@ -1,1 +1,1 @@
-./pandoc-2.6/bin/pandoc https://spirosbax.com/cv -f html-native_divs -o cv.pdf --pdf-engine=xelatex
+./pandoc-2.6/bin/pandoc https://stilos25.github.io/online-cv/ -f html-native_divs -o cv.pdf --pdf-engine=xelatex
