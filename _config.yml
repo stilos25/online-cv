@@ -17,7 +17,7 @@ sass:
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Build settings
-encoding: \usepackage{filecontents}
+encoding: "filecontents"
 compress_html: # - http://jch.penibelst.de/
   clippings: all
   ignore:
