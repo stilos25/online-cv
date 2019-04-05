@@ -4,7 +4,7 @@ setup_git() {
 }
 
 commit_pdf() {
-  git checkout master
+  git checkout gh-pages
   git add cv.pdf
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
 }
@@ -12,7 +12,7 @@ commit_pdf() {
 upload_files() {
   git remote remove origin
   git remote add origin https://stilos25:$GITHUB_TOKEN@github.com/stilos25/online-cv/tree/gh-pages/pdf
-  git push --quiet -u origin master
+  git push --quiet -u origin gh-pages
 }
 
 setup_git
