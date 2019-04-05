@@ -1,15 +1,13 @@
-sudo: required
-language: generic
-services: docker
-
+language: bash
+before_install:
+- sudo apt-get install texlive texlive-xetex texlive-math-extra texlive-latex-recommended
+  texlive-latex-extra
+- wget https://github.com/jgm/pandoc/releases/download/2.6/pandoc-2.6-linux.tar.gz
+- tar xvfz pandoc-2.6-linux.tar.gz
 script:
-  # We use the docker image from https://hub.docker.com/r/dxjoke/tectonic-docker/
-  - docker pull dxjoke/tectonic-docker
-  # Compiling only main.tex:
-  - docker run --mount src=$TRAVIS_BUILD_DIR/src,target=online-cv/_data/data.yml,type=bind dxjoke/tectonic-docker /bin/sh -c "tectonic main.tex"
-  # Compiling multiple files as well as using biber:
-#  - docker run --mount src=$TRAVIS_BUILD_DIR/src,target=/usr/src/tex,type=bind dxjoke/tectonic-docker /bin/sh -c "tectonic --keep-intermediates --reruns 0 biber-mwe.tex; biber biber-mwe; tectonic biber-mwe.tex; tectonic main.tex"
-
+- bash deploy.sh
+after_success:
+- bash push.sh
 
 # Build all branches, *including* gh-pages:
 branches:
