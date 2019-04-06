@@ -10,8 +10,7 @@ commit_pdf() {
 }
 
 upload_files() {
-  git remote remove origin
-  git remote add origin https://stilos25:$GITHUB_TOKEN@github.com/stilos25/online-cv/tree/gh-pages/pdf
+  git remote add origin-pages https://${GITHUB_TOKEN}@github.com/stilos25/online-cv.git > /dev/null 2>&1
   git push --quiet -u origin gh-pages
 }
 
