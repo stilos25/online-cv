@@ -228,7 +228,7 @@ footer: >
 
 ---
 # Settings
-mainfont: HLatin Modern Sans
+mainfont: Latin Modern Sans
 fontsize: 10pt
 lang: en-US
 geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
