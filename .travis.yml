@@ -1,16 +1,21 @@
-language: bash
-before_install:
-- sudo apt-get install texlive texlive-xetex texlive-math-extra texlive-latex-recommended
-  texlive-latex-extra
-- wget https://github.com/jgm/pandoc/releases/download/2.6/pandoc-2.6-linux.tar.gz
-- tar xvfz pandoc-2.6-linux.tar.gz
-script:
-- bash deploy.sh
-after_success:
-- bash push.sh
-
-# Build all branches, *including* gh-pages:
 branches:
   only:
   - gh-pages
-  - /.*/
+language: bash
+env:
+  global:
+  - PATH=$TRAVIS_BUILD_DIR/usr/bin/:$PATH
+  - secure: eXSnUD44iqhdaAZwFch3Cv81LKRqJ2qckgFm4+zuG4b/gheSbVMVGoaf1LcSmiuaQClvaMbTg6ZeUYumICGuWwG/PX3dXLeqcRSxDy0WdwY2doZvsH239VATkp2qSuPHCUYTtY26Cg1sqjC1LQxj4LQUXVzfC6bKJ1yJef6QpU8Du1QvJkKDrVtOj1uUy4RnleTh+Y7SHWghdboEz8+3Q/XKilCZVrrMxWUDFF1vyCOIqCS2AX4Jn007nVwYfQCND3FwgyV0eAIOWhSOE/P2PblC42UYeUQ+gC3OPKZfsg+KmuykvNGZ5xu6FcA/7k5pelUNp0mcNDAFe9Pr98SQv7KZFkgniRBKlT6xormTshtxH+oaLIqDjbbarbjpr4Mosx1ElzF9dv708SMaqmcLWJbioV3alWkmXtuguoAOpk/u7Bw56MzYl2pUfrZ5AE+1rZ97SWSy5Qter0meDQ2y4CucCcZbHqQsjsEuEgMS9gAoAPtf9aDpR8bhuBr4TjvrwFpZObP/ACb8mwinR16fkM9+PhU/BCp9fSTEdODGGWh946+bWAgWVB9RPQRc98/UGC0PilX2M6YDU6UZ3WKmDrc0921BNT49oiY6rMul2e9HwRFCPLrr/TfrFz2neatYeTiCKZtmp8xR7l5wVJJHyvFDAyIp9UmIExkE/7UJMSc=
+before_install: 
+- wget https://github.com/jgm/pandoc/releases/download/2.1.1/pandoc-2.1.1-1-amd64.deb
+  && ar p pandoc-2.1.1-1-amd64.deb data.tar.xz | tar xJ
+- sudo apt-get update -qq
+- sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
+  texlive-fonts-recommended texlive-fonts-extra  texlive-science
+- sudo apt-get install lmodern
+- chmod +x push.sh
+script:
+- make pdf
+
+after_success:
+- "./push.sh"
