@@ -228,8 +228,8 @@ footer: >
 
 ---
 # Settings
-mainfont: Hoefler Text
+mainfont: HLatin Modern Sans
 fontsize: 10pt
-lang: English
+lang: en-US
 geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
 ---
