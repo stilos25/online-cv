@@ -11,7 +11,7 @@ commit_pdf() {
 
 upload_files() {
   git remote add origin-pages https://${GITHUB_TOKEN}@github.com/stilos25/online-cv.git > /dev/null 2>&1
-  git push --quiet -u origin gh-pages
+  git push --quiet --set-upstream origin-pages gh-pages 
 }
 
 setup_git
