@@ -19,7 +19,7 @@ sidebar:
     # Sidebar links
     email: giannis.stil@hotmail.com
 #    phone: +30 6971855702
-    website: stilos25.github.io/online-cv/. #do not add http://
+#    website: stilos25.github.io/online-cv/. #do not add http://
 #    linkedin: alandoe
     github: stilos25
 #    gitlab:
@@ -211,18 +211,18 @@ skills:
     toolset:
       - name: C & C++
         level: 40%
-              
-      - name: Javascript & Html(5) & Phaser & Css
-        level: 35%
 
       - name: Java & Python
-        level: 40%  
+        level: 35%  
+        
+      - name: Javascript & Html(5) & Phaser & Css
+        level: 40%
 
       - name: Database
         level: 15%
         
-      - name: Sketch & Photoshop
-        level: 45%
+      - name: Lightroom
+        level: 68%
         
 
 footer: >
